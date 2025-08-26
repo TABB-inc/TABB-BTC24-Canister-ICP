@@ -1,0 +1,11 @@
+{
+  "name": "ic-module",
+  "scripts": {
+    "start": "dfx start --background",
+    "deploy": "dfx deploy",
+    "stop": "dfx stop",
+    "build": "dfx build"
+  },
+  "devDependencies": {},
+  "type": "commonjs"
+}

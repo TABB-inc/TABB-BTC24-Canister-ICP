@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "my_canister": {
+      "main": "src/canister/main.mo",
+      "type": "motoko",
+      "wasm": ".dfx/ic/canisters/my_canister/my_canister.wasm",
+      "candid": ".dfx/ic/canisters/my_canister/service.did",
+      "remote": {
+        "id": {
+          "ic": "nfacc-piaaa-aaaal-qssdq-cai"
+        }
+      }
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4944",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "type": "persistent",
+      "providers": ["https://ic0.app"]
+    }
+  },
+  "version": 1,
+  "declarations": { "node_compatibility": true }
+}
